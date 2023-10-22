@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5dfbee70-7a58-4467-b0b5-ea7751bb6b99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../food-delivery/.idea/food-delivery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/.idea/food_delivery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/app_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/app_response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/image.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/paging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/random.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/simple_user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/sql_model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/common/uid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/component/appctx/app_context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/component/hasher/md5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/component/tokenprovider/jwt/jwt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/component/tokenprovider/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/main_routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/middleware/authenticate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/middleware/recover.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/middleware/role_require.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/biz/create_restaurant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/biz/delete_restaurant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/biz/list_restaurant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/model/filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/model/restaurant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/storage/create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/storage/delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/storage/find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/storage/list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/storage/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/transport/ginrestaurant/create_restaurant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/transport/ginrestaurant/delete_restaurant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurant/transport/ginrestaurant/list_restaurant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurantlike/model/filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurantlike/model/restaurant_like.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurantlike/store/create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurantlike/store/delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurantlike/store/list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/restaurantlike/store/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/biz/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/biz/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/store/create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/store/find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/store/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/transport/ginuser/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/transport/ginuser/profile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../food_delivery/module/user/transport/ginuser/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/app_error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/app_response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/image.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/paging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/random.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/simple_user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/sql_model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/uid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/appctx/app-context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/hasher/md5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/recover.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user/biz/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user/repository/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user/store/create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user/store/find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user/store/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user/transport/ginuser/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2X7UfuHIhxTMqhioLycWYTHrCHq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Luxofons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\1CODE\Golang\learn\module\user\store" />
+      <recent name="F:\1CODE\Golang\learn\module\user\model" />
+      <recent name="F:\1CODE\Golang\learn\component\appctx" />
+      <recent name="F:\1CODE\Golang\learn\module\user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build learn" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="POSTGRES_HOST" value="localhost" />
+        <env name="POSTGRES_DB" value="food_delivery_go" />
+        <env name="POSTGRES_PASSWORD" value="admin" />
+        <env name="POSTGRES_PORT" value="5432" />
+        <env name="POSTGRES_USER" value="postgres" />
+        <env name="SECRET_KEY" value="this_is_secret_key" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="learn" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
