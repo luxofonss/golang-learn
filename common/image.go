@@ -16,9 +16,7 @@ type Image struct {
 	Extension string `json:"extension" gorm:"-"`
 }
 
-func (Image) TableName() string {
-	return "images"
-}
+func (Image) TableName() string { return "images" }
 
 func (j *Image) Scan(value interface{}) error {
 	bytes, ok := value.([]byte)
@@ -34,17 +32,16 @@ func (j *Image) Scan(value interface{}) error {
 	}
 
 	*j = img
-
 	return nil
 }
 
-// value return json value, implement driver.Value interface
-func (i *Image) Value() (driver.Value, error) {
-	if i == nil {
+// Value return json value, implement driver.Value interface
+func (j *Image) Value() (driver.Value, error) {
+	if j == nil {
 		return nil, nil
 	}
 
-	return json.Marshal(i)
+	return json.Marshal(j)
 }
 
 type Images []Image
@@ -68,7 +65,7 @@ func (j *Images) Scan(value interface{}) error {
 }
 
 func (j *Images) Value() (driver.Value, error) {
-	if j != nil {
+	if j == nil {
 		return nil, nil
 	}
 

@@ -37,3 +37,17 @@ Y
 )module/user/transport/ginuser/register.go,8\1\81d01bb9870d22d9302851f2f18875b3dc667414
 R
 "module/user/repository/register.go,e\7\e72fff7addc56ae182d03079ae9670b57190393a
+I
+module/user/store/find.go,4\5\453a771141470be9873cbdfe022563bb40d3f14a
+E
+middleware/recover.go,9\7\9778be975b6bab7b6be464b1adbd0eda7709333f
+R
+"component/tokenprovider/jwt/jwt.go,1\9\1952a855ab67a6db557424ae53e9884dc538e8ef
+S
+#component/tokenprovider/provider.go,1\a\1a91d1e521b8d66ea3df8a3335dd6a44bcac89ed
+O
+module/user/repository/login.go,5\f\5f79f7c3e2fa12a52af0dc724f74afc4df126db7
+H
+module/user/biz/login.go,4\b\4b2106430a328854d708211e794bf230e402a4ca
+V
+&module/user/transport/ginuser/login.go,b\0\b0b4a091d324e39b5d03a9a883201d260592dd2b

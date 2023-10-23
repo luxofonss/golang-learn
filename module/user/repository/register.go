@@ -15,16 +15,16 @@ type Hasher interface {
 	Hash(data string) string
 }
 
-type RegisterRepo struct {
+type registerRepo struct {
 	store  RegisterUserStore
 	hasher Hasher
 }
 
-func NewRegisterRepo(store RegisterUserStore, hasher Hasher) *RegisterRepo {
-	return &RegisterRepo{store: store, hasher: hasher}
+func NewRegisterRepo(store RegisterUserStore, hasher Hasher) *registerRepo {
+	return &registerRepo{store: store, hasher: hasher}
 }
 
-func (repo *RegisterRepo) Register(ctx context.Context, data *usermodel.UserCreate) error {
+func (repo *registerRepo) Register(ctx context.Context, data *usermodel.UserCreate) error {
 	user, _ := repo.store.FindUser(ctx, map[string]interface{}{"email": data.Email})
 
 	if user != nil {

@@ -13,7 +13,7 @@ const (
 
 type Requester interface {
 	GetUserId() int
-	GetMain() string
+	GetEmail() string
 	GetRole() string
 }
 
